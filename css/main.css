@@ -1,7 +1,1000 @@
 @charset "UTF-8";
 /*css Document */
 
+p, h1, h2, h3
+{
+	text-align: center;
+	font-family: "Muli", sans-serif;
+	color: #FFF;
+}
+
+a 
+{
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	font-family: "Muli", sans-serif;
+}
+
 .hidden
 {
   display: none;
+}
+
+#container
+{
+	margin: 0 auto;
+	max-width: 1200px;
+/*	border-left: 1px solid #000;
+	border-right: 1px solid #000;*/
+}
+
+
+/*mobile*/
+/*mobile*/
+/*mobile*/
+
+#mainHeader
+{
+	height: 159px;
+	border-bottom: 1px solid #959595;
+	letter-spacing: 2px;
+}
+
+#topBan
+{
+	height: 37px;
+	background-color: #5d7132;
+	display: flex;
+	flex-direction: row;
+}
+
+#topBEmail 
+{
+	width: 152px;
+	height: 15px;
+	margin-left: 13px;
+	margin-top: 1px;
+	background-color: #9abd4b;
+}
+
+#topIcons
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: 12px;
+	margin-top: 12px;
+	font-size: 5px;
+}
+
+.topBsocialmedia
+{
+	width: 15px;
+	height: 15px;
+	margin-left: 7px;
+	background-color: #9abd4b; 
+}
+
+#headerContent
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#headerLogo
+{
+	width: 103px;
+	height: 92px;
+	background-color: #9abd4b;
+	margin-left: 11px;
+	margin-top: 15px;
+}
+
+#headerLogo p
+{
+	line-height: 50px;
+}
+
+#ham
+{
+	display: block;
+	width: 26px;
+	height: 20px;
+	background-color: #9abd4b;
+	margin-right: 11px;
+	margin-top: 56px;
+	margin-left: auto;
+}
+
+#mainNav
+{
+	display: none;
+}
+
+#headerMembership
+{
+	display: none;
+}
+
+#topButton
+{
+	position: fixed;
+	right: 10px;
+	bottom: 15px;
+	width: 40px;
+	height: 35px;
+	background-color: #9abd4b;
+}
+
+#topButton p
+{
+	line-height: 30px;
+}
+
+#mainFooter
+{
+	height: 534px;
+	background-color: #5d7132;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	/*padding-top: 52px;*/
+}
+
+#footerL
+{
+	margin-left: 13px;
+	display: flex;
+	flex-direction: column;
+}
+
+#address
+{
+	height: 57px;
+	width: 251px;
+	background-color: #9abd4b;
+	margin-bottom: 23px;
+}
+
+#address p
+{
+	line-height: 50px;
+}
+
+#socialMedia
+{
+	margin-bottom: 20px;
+}
+
+#icons
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.socialmediaIcon
+{
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+	background-color: #9abd4b;
+}
+
+.socialmediaIcon p
+{
+	line-height: 50px;
+	font-size: 10px;
+}
+
+#copyRight
+{
+	height: 15px;
+	width: 159px;
+	background-color: #9abd4b;
+}
+
+#footerM
+{
+	width: 84px;
+	height: 78px;
+	margin-left: 13px;
+	background-color: #9abd4b;
+}
+
+#footerM p
+{
+	line-height: 50px;
+}
+
+#footerLogo
+{
+	width: 122px;
+	height: 108px;
+	background-color: #9abd4b;
+	margin-left: 13px;
+}
+
+#footerLogo p
+{
+	line-height: 100px;
+}
+
+
+/*the end of header and footer*/
+
+#TRAAhome
+{
+	display: flex;
+	flex-direction: column;	
+	height: 711px;
+}
+
+#heroImage
+{
+	height: 312px;
+	background-color: #959595;
+	z-index: -3;
+}
+
+#heroImage h2
+{
+	line-height: 350px;
+}
+
+#TRAAfundrasing
+{
+	position: absolute;
+}
+
+#TRAAfundrasing h2, #TRAAfundrasing p
+{
+	line-height: 200px;
+}
+
+#fund1
+{
+	position: absolute;
+	width: 250px;
+	height: 290px;
+	background-color: #9abd4b;
+	margin-top: 274px;
+	z-index: 2;
+}
+
+#fundButton
+{
+	position: absolute;
+	width: 161px;
+	height: 51px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid grey;
+	margin-top: 60px;
+	margin-left: 90px;
+	background-color: #fff;
+}
+
+#fundImg
+{
+	position: absolute;
+	width: 265px;
+	height: 250px;
+	background-color: #676565;
+	margin-left: 55px;
+	margin-top: 410px;
+	z-index: -1;
+}
+
+#fundImg p
+{
+	text-align: right;
+	padding-top: 110px;
+	padding-right: 20px;
+}
+
+#TRAAnews
+{
+	position: absolute;
+	background-color: #f5f5f5;
+	height: 1155px;
+	width: 100%;
+}
+
+#TRAAnews h2 
+{
+	line-height: 300px;
+}
+
+#news1
+{
+	position: absolute;
+	width: 230px;
+	height: 413px;
+	background-color: #9abd4b;
+	margin-top: 34px;
+	margin-left: 90px;
+	z-index: 2;
+}
+
+#imgTop
+{
+	position: absolute;
+	width: 227px;
+	height: 423px;
+	background-color: #676565;
+	margin-top: 92px;
+}
+
+#imgTop p
+{
+	text-align: left;
+	line-height: 300px;
+}
+
+#imgBot
+{
+	position: absolute;
+	width: 245px;
+	height: 526px;
+	background-color: #4d4747;
+	z-index: 1;
+	margin-left: 72px;
+	margin-top: 554px;
+}
+
+#imgBot p
+{
+	text-align: right;
+	line-height: 300px;
+}
+
+#news2
+{
+	position: absolute;
+	width: 252px;
+	height: 619px;
+	background-color: #9abd4b;
+	z-index: 2;
+	margin-top: 484px;
+}
+
+#newEvents
+{
+	height: 547px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 1148px;
+}
+
+#newEvents h2
+{
+	width: 254px;
+	height: 103px;
+	background-color: #9abd4b;
+	margin-top: 65px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 100px;
+}
+
+#toL, #toR 
+{
+	width: 27px;
+	height: 27px;
+	background-color: #5d7132;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 150px;
+}
+
+#eventswithB
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+.eventsRow
+{
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	width: 215px;
+	margin-top: 55px;
+}
+
+.events
+{
+	width: 215px;
+	height: 219px;
+	flex-shrink: 0;
+	background-color: #676565;
+}
+
+.events p
+{
+	line-height: 250px;
+}
+
+
+
+@media screen and (min-width: 321px) {
+	#mainHeader
+	{
+		height: 232px;
+	}
+
+	#topBan
+	{
+		height: 53px;
+	}
+
+	#topBEmail 
+	{
+		width: 182px;
+		height: 15px;
+		margin-left: 13px;
+		margin-top: 24px;
+	}
+
+	#topIcons
+	{
+		margin-right: 17px;
+		margin-top: 15px;
+		font-size: 10px;
+		line-height: 30px;
+	}
+
+	.topBsocialmedia
+	{
+		width: 24px;
+		height: 24px;
+		margin-left: 10px;
+	}
+
+	#headerLogo
+	{
+		width: 139px;
+		flex-shrink: 0;
+		height: 123px;
+		margin-left: 11px;
+		margin-top: 28px;
+	}
+
+	#headerLogo p
+	{
+		line-height: 100px;
+	}
+
+	#ham
+	{
+		display: none;
+	}
+
+	#mainNav
+	{
+		display: block;
+		width: 533px;
+		height: 17px;
+		background-color: #9abd4b;
+		margin-left: 56px;
+		margin-top: 102px;
+	}
+
+	#mainNav h2
+	{
+		line-height: 10px;
+	}
+
+	#headerMembership
+	{
+		display: block;
+		background-color: #9abd4b;
+		width: 143px;
+		height: 64px;
+		margin-left: auto;
+		line-height: 50px;
+		right: 0;
+		margin-top: 0;
+		position: absolute;
+	}
+
+	#topButton
+	{
+		right: 10px;
+		bottom: 20px;
+		width: 40px;
+		height: 50px;
+	}
+
+	#topButton p
+	{
+		line-height: 50px;
+	}
+
+	#mainFooter
+	{
+		height: 259px;
+		flex-direction: row;
+		padding-top: 59px;
+	}
+
+	#footerL
+	{
+		margin-left: 15px;
+	}
+
+	#address
+	{
+		height: 59px;
+		width: 249px;
+		margin-bottom: 17px;
+	}
+
+	#address p
+	{
+		line-height: 50px;
+	}
+
+	.socialmediaIcon
+	{
+		width: 25px;
+		height: 25px;
+		margin-right: 10px;
+	}
+
+	.socialmediaIcon p
+	{
+		line-height: 20px;
+	}
+ 
+	#copyRight
+	{
+		height: 20px;
+	}
+
+
+	#footerM
+	{
+		width: 84px;
+		height: 88px;
+		margin-left: 116px;
+	}
+
+	#footerM p
+	{
+		line-height: 70px;
+	}
+
+	#footerR
+	{
+		margin-right: 15px;
+		margin-left: auto;
+	}
+
+	#footerLogo
+	{
+		width: 152px;
+		height: 134px;
+	}
+
+	#footerLogo p
+	{
+		line-height: 80px;
+	}
+
+
+	/*the end of header and footer*/
+
+	#TRAAhome
+	{
+		height: 932px;
+	}
+
+	#heroImage
+	{
+		height: 497px;
+	}
+
+	#heroImage h2
+	{
+		line-height: 350px;
+	}
+
+	#TRAAfundrasing h2, #TRAAfundrasing p
+	{
+		line-height: 400px;
+	}
+
+	#fund1
+	{
+		width: 372px;
+		height: 294px;
+		margin-top: 397px;
+		margin-left: 79px;
+	}
+
+	#fundButton
+	{
+		width: 127px;
+		height: 40px;
+		line-height: 40px;
+		margin-top: -125px;
+		margin-left: 111px;
+	}
+
+	#fundImg
+	{
+		width: 447px;
+		height: 415px;
+		margin-left: 246px;
+		margin-top: 430px;
+	}
+
+	#fundImg p
+	{
+		padding-right: 40px;
+	}
+
+	#TRAAnews
+	{
+		height: 987px;
+	}
+
+	#news1
+	{
+		width: 369px;
+		height: 305px;
+		margin-top: 69px;
+		margin-left: 319px;
+	}
+
+	#imgTop
+	{
+		width: 443px;
+		height: 443px;
+		margin-left: 82px;
+		margin-top: 121px;
+	}
+
+	#imgTop p
+	{
+		padding-left: 40px;
+		line-height: 300px;
+	}
+
+	#imgBot
+	{
+		width: 445px;
+		height: 415px;
+		margin-left: 278px;
+		margin-top: 500px;
+	}
+
+	#imgBot p
+	{
+		padding-right: 40px;
+	}
+
+	#news2
+	{
+		width: 372px;
+		height: 488px;
+		margin-left: 50px;
+		margin-top: 399px;
+	}
+
+	#newEvents
+	{
+		height: 600px;
+		margin-top: 995px;
+	}
+
+	#newEvents h2
+	{
+		width: 385px;
+		height: 113px;
+		margin-top: 20px;
+		line-height: 100px;
+	}
+
+	#toL, #toR 
+	{
+		width: 29px;
+		height: 29px;
+	}
+
+	.eventsRow
+	{
+		width: 480px;
+	}
+
+	.events
+	{
+		width: 192px;
+		height: 226px;
+		margin-right: 97px;
+	}
+
+}
+
+@media screen and (min-width: 769px) {
+	#mainHeader
+	{
+		height: 250px;
+	}
+
+	#topBan
+	{
+		height: 55px;
+	}
+
+	#topBEmail 
+	{
+		width: 185px;
+		height: 20px;
+		margin-left: 53px;
+		margin-top: 20px;
+	}
+
+	#topIcons
+	{
+		margin-right: 25px;
+		margin-top: 15px;
+		font-size: 10px;
+		line-height: 30px;
+	}
+
+	.topBsocialmedia
+	{
+		width: 30px;
+		height: 30px;
+		margin-left: 10px;
+	}
+
+	#headerLogo
+	{
+		width: 162px;
+		height: 144px;
+		margin-left: 13px;
+	}
+
+	#ham 
+	{
+		display: none; 
+	}
+
+	#mainNav
+	{
+		display: block;
+		width: 580px;
+		height: 50px;
+		margin-left: 168px;
+		margin-top: 85px;
+	}
+
+	#mainNav h2
+	{
+		line-height: 50px;
+	}
+
+	#headerMembership
+	{
+		display: block;
+		width: 185px;
+		height: 195px;
+		position: static;
+		margin-left: auto;
+		line-height: 200px;
+	}
+
+	#topButton
+	{
+		right: 100px;
+		bottom: 20px;
+		width: 60px;
+		height: 75px;
+	}
+
+	#topButton p
+	{
+		line-height: 90px;
+	}
+
+	#mainFooter
+	{
+		height: 308px;
+		flex-direction: row;
+		padding-top: 59px;
+	}
+
+	#footerL
+	{
+		margin-left: 59px;
+	}
+
+	#address
+	{
+		height: 70px;
+		width: 265px;
+		margin-bottom: 23px;
+	}
+
+	#address p
+	{
+		line-height: 80px;
+	}
+
+	.socialmediaIcon
+	{
+		width: 52px;
+		height: 50px;
+		margin-right: 10px;
+	}
+
+	.socialmediaIcon p
+	{
+		line-height: 50px;
+	}
+
+	#footerM
+	{
+		width: 111px;
+		height: 97px;
+		margin-left: 133px;
+	}
+
+	#footerM p
+	{
+		line-height: 100px;
+	}
+
+	#footerR
+	{
+		margin-right: 121px;
+		margin-left: auto;
+	}
+
+	#footerLogo
+	{
+		width: 163px;
+		height: 144px;
+	}
+
+	#footerLogo p
+	{
+		line-height: 100px;
+	}
+
+	#copyRight
+	{
+		height: 20px;
+	}
+
+	/*the end of header and footer*/
+
+	#TRAAhome
+	{
+		height: 1165px;
+	}
+
+	#heroImage
+	{
+		height: 537px;
+	}
+
+	#heroImage h2
+	{
+		line-height: 350px;
+	}
+
+	#TRAAfundrasing h2, #TRAAfundrasing p
+	{
+		line-height: 400px;
+	}
+
+	#fund1
+	{
+		width: 472px;
+		height: 387px;
+		margin-top: 436px;
+		margin-left: 216px;
+	}
+
+	#fundButton
+	{
+		width: 161px;
+		height: 51px;
+		line-height: 50px;
+		margin-top: -39px;
+		margin-left: 137px;
+	}
+
+	#fundImg
+	{
+		width: 560px;
+		height: 524px;
+		margin-left: 424px;
+		margin-top: 488px;
+	}
+
+	#fundImg p
+	{
+		padding-right: 40px;
+	}
+
+	#TRAAnews
+	{
+		height: 1248px;
+		width: 1200px;
+		flex-shrink: 1;
+	}
+
+	#news1
+	{
+		width: 472px;
+		height: 387px;
+		margin-top: 87px;
+		margin-left: 514px;
+	}
+
+	#imgTop
+	{
+		width: 560px;
+		height: 524px;
+		margin-left: 215px;
+		margin-top: 155px;
+	}
+
+	#imgBot
+	{
+		width: 560px;
+		height: 524px;
+		margin-left: 455px;
+		margin-top: 636px;
+	}
+
+	#news2
+	{
+		width: 472px;
+		height: 459px;
+		margin-left: 185px;
+		margin-top: 509px;
+	}
+
+	#newEvents
+	{
+		height: 670px;
+		margin-top: 1300px;
+		background: -webkit-linear-gradient(top, rgba(255,255,255,1) 45%,rgba(245,245,245,1) 45%);
+	}
+
+	#newEvents h2
+	{
+		width: 594px;
+		height: 116px;
+		margin-top: 20px;
+	}
+
+	#toL, #toR 
+	{
+		width: 41px;
+		height: 41px;
+	}
+
+	.eventsRow
+	{
+		width: 930px;
+	}
+
+	.events
+	{
+		width: 262px;
+		height: 267px;
+		margin-right: 69px;
+	}
 }
