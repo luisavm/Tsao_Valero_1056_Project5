@@ -4,16 +4,21 @@
 p, h1, h2, h3
 {
 	text-align: center;
-	font-family: "Muli", sans-serif;
-	color: #FFF;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	color: #fff;
 }
 
-a 
+a
 {
 	text-decoration: none;
 	color: #000;
 	text-align: center;
-	font-family: "Muli", sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+img, embed, object, video
+{
+max-width: 100%;
 }
 
 .hidden
@@ -30,10 +35,6 @@ a
 }
 
 
-/*mobile*/
-/*mobile*/
-/*mobile*/
-
 #mainHeader
 {
 	height: 159px;
@@ -49,7 +50,7 @@ a
 	flex-direction: row;
 }
 
-#topBEmail 
+#topBEmail
 {
 	width: 152px;
 	height: 15px;
@@ -74,7 +75,7 @@ a
 	width: 15px;
 	height: 15px;
 	margin-left: 7px;
-	background-color: #9abd4b; 
+	background-color: #9abd4b;
 }
 
 #headerContent
@@ -227,7 +228,7 @@ a
 #TRAAhome
 {
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 	height: 711px;
 }
 
@@ -260,6 +261,7 @@ a
 	height: 290px;
 	background-color: #9abd4b;
 	margin-top: 274px;
+	color: #fff;
 	z-index: 2;
 }
 
@@ -270,10 +272,14 @@ a
 	height: 51px;
 	line-height: 50px;
 	text-align: center;
-	border: 1px solid grey;
 	margin-top: 60px;
 	margin-left: 90px;
-	background-color: #fff;
+	background-color: #959595;
+}
+
+#fundButton a
+{
+	color: #fff;
 }
 
 #fundImg
@@ -302,7 +308,7 @@ a
 	width: 100%;
 }
 
-#TRAAnews h2 
+#TRAAnews h2
 {
 	line-height: 300px;
 }
@@ -379,7 +385,7 @@ a
 	line-height: 100px;
 }
 
-#toL, #toR 
+#toL, #toR
 {
 	width: 27px;
 	height: 27px;
@@ -422,7 +428,7 @@ a
 
 
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 340px) {
 	#mainHeader
 	{
 		height: 232px;
@@ -433,7 +439,7 @@ a
 		height: 53px;
 	}
 
-	#topBEmail 
+	#topBEmail
 	{
 		width: 182px;
 		height: 15px;
@@ -551,7 +557,7 @@ a
 	{
 		line-height: 20px;
 	}
- 
+
 	#copyRight
 	{
 		height: 20px;
@@ -702,7 +708,7 @@ a
 		line-height: 100px;
 	}
 
-	#toL, #toR 
+	#toL, #toR
 	{
 		width: 29px;
 		height: 29px;
@@ -733,7 +739,7 @@ a
 		height: 55px;
 	}
 
-	#topBEmail 
+	#topBEmail
 	{
 		width: 185px;
 		height: 20px;
@@ -763,9 +769,9 @@ a
 		margin-left: 13px;
 	}
 
-	#ham 
+	#ham
 	{
-		display: none; 
+		display: none;
 	}
 
 	#mainNav
@@ -970,7 +976,6 @@ a
 	{
 		height: 670px;
 		margin-top: 1300px;
-		background: -webkit-linear-gradient(top, rgba(255,255,255,1) 45%,rgba(245,245,245,1) 45%);
 	}
 
 	#newEvents h2
@@ -980,7 +985,7 @@ a
 		margin-top: 20px;
 	}
 
-	#toL, #toR 
+	#toL, #toR
 	{
 		width: 41px;
 		height: 41px;
